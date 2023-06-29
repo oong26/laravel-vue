@@ -162,7 +162,7 @@
           <nav class="mt-2">
             <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
               <li class="nav-item">
-                <router-link to="/admin/dashboard" active-class="active" class="nav-link">
+                <router-link to="{name: 'admin.dashboard'}" active-class="active" class="nav-link">
                   <i class="nav-icon fas fa-tachometer-alt"></i>
                   <p>Dashboard</p>
                 </router-link>
@@ -183,12 +183,6 @@
                 <router-link to="/admin/settings" active-class="active" class="nav-link">
                   <i class="nav-icon fas fa-cog"></i>
                   <p>Settings</p>
-                </router-link>
-              </li>
-              <li class="nav-item">
-                <router-link to="/admin/profile" active-class="active" class="nav-link">
-                  <i class="nav-icon fas fa-user"></i>
-                  <p>Profile</p>
                 </router-link>
               </li>
               <li class="nav-item">
